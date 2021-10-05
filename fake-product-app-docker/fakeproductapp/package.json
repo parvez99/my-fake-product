@@ -1,0 +1,14 @@
+{
+  "name": "fake_product_app",
+  "version": "1.0.0",
+  "description": "Fake Product App",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./**/*.js --exit",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "mocha": "*"
+  }
+}
